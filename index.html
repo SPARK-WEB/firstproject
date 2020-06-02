@@ -14,6 +14,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="stylehome.css">
+    <link rel="stylesheet" type="text/css" href="stylebutton.css">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script>
@@ -22,6 +23,7 @@
     <script src="js/bootstrap.bundle.min.js"></script>
     <script src="javascript.js"></script>
     <script src="javascript2.js"></script>
+    <script src="scriptbutton.js"></script>
     <meta name="theme-color" content="#563d7c">
 
     <style>
@@ -104,15 +106,11 @@
                         <a class="nav-link next-menu-3" href="#video">Video <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link next-menu-4" href="#news">News & Sports <span
+                        <a class="nav-link next-menu-4" href="#about-us">About <span
                                 class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link next-menu-5" href="#about-us">About <span
-                                class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link next-menu-6" href="#contact">Contact Us <span
+                        <a class="nav-link next-menu-5" href="#contact">Contact Us <span
                                 class="sr-only">(current)</span></a>
                     </li>
                 </ul>
@@ -237,26 +235,6 @@
                 </div>
             </div>
 
-            <hr class="featurette-divider" id="news">
-
-            <!-- News Section Begins -->
-
-            <div class="row featurette">
-                <div class="container-fluid" style="padding-top: 50px!important">
-                    <h1 class="text-center text-capitalize pt-5" style="padding-top: 0px!important">News & Sports</h1>
-                    <hr class="w-25 mx-auto pt-5">
-                </div>
-                <div class="col-md-7">
-                    <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Feature.</span></h2>
-                    <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <p style="margin-top: 20px;"><a class="btn-lg btn-primary" href="#" role="button">Visit Page
-                            &raquo;</a></p>
-                </div>
-                <div class="col-md-5" style="padding-top: 30px;">
-                    <img src="advertise2.jpg" style="width: 100%;height: auto;">
-                </div>
-            </div>
-
             <hr class="featurette-divider" id="about-us">
 
             <!-- About Section Begins -->
@@ -275,7 +253,13 @@
                         </svg>
                         <h2 style="padding-bottom: 20px;">Arkadev Banerjee</h2>
                         <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+
+                        <ul class="btn-class">
+                            <li onclick="parent.open('https://www.facebook.com')"><i class="fab fa-facebook-f"></i></li>
+                            <li onclick="parent.open('https://www.instagram.com')"><i class="fab fa-instagram"></i></li>
+                            <li onclick="parent.open('https://www.github.com')"><i class="fab fa-github"></i></li>
+                        </ul>
+
                     </div>
                     <div class="col-lg-4 col-xs-1 text-center">
                         <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
@@ -285,7 +269,13 @@
                         </svg>
                         <h2 style="padding-bottom: 20px;">Sourashis Paul</h2>
                         <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+
+                        <ul class="btn-class">
+                            <li onclick="parent.open('https://www.facebook.com')"><i class="fab fa-facebook-f"></i></li>
+                            <li onclick="parent.open('https://www.instagram.com')"><i class="fab fa-instagram"></i></li>
+                            <li onclick="parent.open('https://www.github.com')"><i class="fab fa-github"></i></li>
+                        </ul>
+
                     </div>
                     <div class="col-lg-4 col-xs-1 text-center">
                         <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
@@ -295,7 +285,13 @@
                         </svg>
                         <h2 style="padding-bottom: 20px;">Aman Kumar Gupta</h2>
                         <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+
+                        <ul class="btn-class">
+                            <li onclick="parent.open('https://www.facebook.com')"><i class="fab fa-facebook-f"></i></li>
+                            <li onclick="parent.open('https://www.instagram.com')"><i class="fab fa-instagram"></i></li>
+                            <li onclick="parent.open('https://www.github.com')"><i class="fab fa-github"></i></li>
+                        </ul>
+
                     </div>
 
                 </div>
@@ -308,7 +304,13 @@
                         </svg>
                         <h2 style="padding-bottom: 20px;">Indrajit Banerjee</h2>
                         <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+
+                        <ul class="btn-class">
+                            <li onclick="parent.open('https://www.facebook.com')"><i class="fab fa-facebook-f"></i></li>
+                            <li onclick="parent.open('https://www.instagram.com')"><i class="fab fa-instagram"></i></li>
+                            <li onclick="parent.open('https://www.github.com')"><i class="fab fa-github"></i></li>
+                        </ul>
+
                     </div>
                     <div class="col-lg-4 col-xs-1 text-center">
                         <svg style="margin-bottom: 20px;" class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: 140x140">
@@ -318,7 +320,13 @@
                         </svg>
                         <h2 style="padding-bottom: 20px;">Nilanjan Roy</h2>
                         <p style="padding-bottom: 20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                        <p><a class="btn-lg btn-primary" href="#" role="button">Visit Page &raquo;</a></p>
+
+                        <ul class="btn-class">
+                            <li onclick="parent.open('https://www.facebook.com')"><i class="fab fa-facebook-f"></i></li>
+                            <li onclick="parent.open('https://www.instagram.com')"><i class="fab fa-instagram"></i></li>
+                            <li onclick="parent.open('https://www.github.com')"><i class="fab fa-github"></i></li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
