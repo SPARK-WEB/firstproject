@@ -38,4 +38,5 @@ $(window).on('scroll', function() {
         $('.next-menu-5').removeClass('activated');
     }
 
-});
+}); 
+//@arkad Orginal Work
