@@ -151,7 +151,7 @@ const questions = [{
         ]
     },
     {
-        question: 'What is 21 divided by 9 ?',
+        question: 'What is 21 divided by 7 ?',
         answers: [
             { text: '4', correct: false },
             { text: '7', correct: false },
