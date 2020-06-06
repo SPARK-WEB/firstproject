@@ -129,7 +129,7 @@ const questions = [{
             { text: 'There', correct: false },
             { text: 'There is', correct: false },
             { text: 'There are', correct: true },
-            { text: 'There aren't', correct: false }
+            { text: 'There aren\'t', correct: false }
         ]
     },
     {
