@@ -142,7 +142,7 @@ const questions = [{
         ]
     },
     {
-        question: '"Has Steve got a sister ?" No he ___.',
+        question: 'Has Steve got a sister ?" No he ___.',
         answers: [
             { text: 'has not ', correct: true },
             { text: 'not', correct: false },

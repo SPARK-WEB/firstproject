@@ -88,93 +88,93 @@ function clearStatusClass(element) {
 }
 
 const questions = [{
-        question: 'Jenny ____ tired. ',
+        question: 'Whose bag is this ? It\'s _______ .  ',
         answers: [
-            { text: 'be', correct: false },
-            { text: 'is', correct: true },
-            { text: 'has', correct: false },
-            { text: 'have', correct: false }
+            { text: 'of me', correct: false },
+            { text: 'mine', correct: true },
+            { text: 'me', correct: false },
+            { text: 'my', correct: false }
         ]
     },
     {
-        question: '____ is she ? ',
+        question: '______ it stopped raining we started our journey ',
         answers: [
-            { text: 'who', correct: true },
-            { text: 'why', correct: false },
-            { text: 'which', correct: false },
-            { text: 'what', correct: false }
+            { text: 'As soon as', correct: true },
+            { text: 'No sooner had', correct: false },
+            { text: 'Never the less', correct: false },
+            { text: 'Hardly had', correct: false }
         ]
     },
     {
-        question: 'Yesterday it ____ Tuesday.',
+        question: 'Run fast ______ get your ticket. ',
         answers: [
-            { text: 'was', correct: true },
-            { text: 'is', correct: false },
-            { text: 'be', correct: false },
+            { text: 'and', correct: true },
+            { text: 'as', correct: false },
+            { text: 'but', correct: false },
             { text: 'were', correct: false }
         ]
     },
     {
-        question: 'Tomorrow it _____ Friday.',
+        question: 'She did not sing so ______ as her friend. ',
         answers: [
-            { text: 'was', correct: false },
-            { text: 'were', correct: false },
-            { text: 'be', correct: false },
-            { text: 'will be', correct: true }
+            { text: 'worst', correct: false },
+            { text: 'better', correct: false },
+            { text: 'best', correct: false },
+            { text: 'well', correct: true }
         ]
     },
     {
-        question: '____ lots of animals is the zoo',
+        question: 'There is _____ one-eyed deer.',
         answers: [
-            { text: 'There', correct: false },
-            { text: 'There is', correct: false },
-            { text: 'There are', correct: true },
-            { text: 'There aren\'t', correct: false }
+            { text: 'two', correct: false },
+            { text: 'an', correct: false },
+            { text: 'a', correct: true },
+            { text: 'the', correct: false }
         ]
     },
     {
-        question: 'How many people ____ in your family ?',
+        question: 'My father is a farmer but yours ____ an advocate. ',
         answers: [
-            { text: 'there are', correct: false },
-            { text: 'is there', correct: false },
-            { text: 'are there', correct: true },
+            { text: 'the', correct: false },
+            { text: ' does', correct: false },
+            { text: 'is', correct: true },
             { text: 'are', correct: false }
         ]
     },
     {
-        question: '"Has Steve got a sister ?" No he ___.',
+        question: 'They are very clever but _______ class teacher isn\'t. ',
         answers: [
-            { text: 'has not ', correct: true },
-            { text: 'not', correct: false },
-            { text: 'have not', correct: false },
-            { text: 'has', correct: false }
+            { text: 'their ', correct: true },
+            { text: 'them', correct: false },
+            { text: 'there', correct: false },
+            { text: 'his', correct: false }
         ]
     },
     {
-        question: 'Where ___ Sara lives ? ',
+        question: 'This is my mobile, where is _______ ? ',
         answers: [
-            { text: 'do', correct: false },
-            { text: 'has', correct: false },
-            { text: 'does', correct: true },
-            { text: 'is', correct: false }
+            { text: 'you', correct: false },
+            { text: 'your', correct: false },
+            { text: 'yours', correct: true },
+            { text: 'you\'re', correct: false }
         ]
     },
     {
-        question: '_____ to London on the train yesterday ?',
+        question: 'We _____ very regular classes. ',
         answers: [
-            { text: 'Did Jenny go', correct: true },
-            { text: 'Jenny went', correct: false },
-            { text: 'Jenny go', correct: false },
-            { text: 'Jenny will go', correct: false }
+            { text: 'have', correct: true },
+            { text: 'is', correct: false },
+            { text: 'doesn\'t', correct: false },
+            { text: 'are', correct: false }
         ]
     },
     {
-        question: 'Jack ____ English , Spanish and bit of French.',
+        question: 'Cricket is the _______ game in our country.',
         answers: [
-            { text: 'speak', correct: false },
-            { text: 'speaking', correct: false },
-            { text: 'is speaking', correct: false },
-            { text: 'speaks', correct: true }
+            { text: 'more popular', correct: false },
+            { text: 'must popular', correct: false },
+            { text: 'might popular', correct: false },
+            { text: 'most popular', correct: true }
         ]
     }
 ]
