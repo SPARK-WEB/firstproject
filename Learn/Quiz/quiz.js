@@ -51,7 +51,7 @@ var range;
 
 
 
-document.getElementById("number_correct").innerHTML="&rarr;you got "+correct+" correct.";
+alert("--> You got "+correct+" correct.");
 document.getElementById("pictures").src=pictures[range];
 
 

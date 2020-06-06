@@ -3,7 +3,7 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
-
+var count = 0;
 let shuffledQuestions, currentQuestionIndex
 
 startButton.addEventListener('click', startGame)
@@ -13,6 +13,7 @@ nextButton.addEventListener('click', () => {
 })
 
 function startGame() {
+    count = 0;
     startButton.classList.add('hide')
     shuffledQuestions = questions.sort(() => Math.random() - .5)
     currentQuestionIndex = 0
@@ -59,6 +60,15 @@ function selectAnswer(e) {
     } else {
         startButton.innerText = 'Restart'
         startButton.classList.remove('hide')
+        score = count - 10;
+        if (score >= 8) {
+            alert("--> Congratulations, You got " + (count - 10) + " correct. Great Progress.<--");
+        } else if (score >= 5 && score < 8) {
+            alert("--> You got " + (count - 10) + " correct. Good Going. <--");
+        } else {
+            alert("--> You got " + (count - 10) + " correct. Try Hard and Better Luck Next Time. <--");
+        }
+        count = 0;
     }
 }
 
@@ -66,6 +76,7 @@ function setStatusClass(element, correct) {
     clearStatusClass(element)
     if (correct) {
         element.classList.add('correct')
+        count++;
     } else {
         element.classList.add('wrong')
     }
