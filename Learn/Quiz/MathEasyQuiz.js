@@ -133,48 +133,48 @@ const questions = [{
         ]
     },
     {
-        question: 'Arrange in Descending Order :- 31, 99, 0, 213, 1',
+        question: 'What is 11 + 19 = ?',
         answers: [
-            { text: '0, 1, 31, 99, 213', correct: false },
-            { text: '213, 99, 0, 31, 1', correct: false },
-            { text: '213, 99, 31, 1, 0', correct: true },
-            { text: '99, 0, 1, 213, 31', correct: false }
-        ]
-    },
-    {
-        question: 'What is 21 + 52 - 32 + 3 ?',
-        answers: [
-            { text: '44', correct: true },
-            { text: '54', correct: false },
-            { text: '43', correct: false },
-            { text: '29', correct: false }
-        ]
-    },
-    {
-        question: 'What is 37 - 23 + 51 - 7 ?',
-        answers: [
-            { text: '581', correct: false },
-            { text: '85', correct: false },
-            { text: '58', correct: true },
-            { text: '29', correct: false }
-        ]
-    },
-    {
-        question: 'What is 42 + 18 X 2 ?',
-        answers: [
-            { text: '120', correct: true },
-            { text: '78', correct: false },
-            { text: '87', correct: false },
-            { text: '102', correct: false }
-        ]
-    },
-    {
-        question: 'What is 225 / 5 - 23 ?',
-        answers: [
+            { text: '30', correct: true },
+            { text: '20', correct: false },
             { text: '21', correct: false },
-            { text: '25', correct: false },
-            { text: '24', correct: false },
+            { text: '29', correct: false }
+        ]
+    },
+    {
+        question: 'What is 90 - 58 = ?',
+        answers: [
+            { text: '48', correct: false },
+            { text: '32', correct: true },
+            { text: '42', correct: false },
+            { text: '38', correct: false }
+        ]
+    },
+    {
+        question: 'What is 21 divided by 9 ?',
+        answers: [
+            { text: '4', correct: false },
+            { text: '7', correct: false },
+            { text: '3', correct: true },
+            { text: '11', correct: false }
+        ]
+    },
+    {
+        question: 'There are 37 birds on a tree. Suddenly 15 birds fly away. So, how many birds remains on the tree?',
+        answers: [
+            { text: '23', correct: false },
+            { text: '27', correct: false },
+            { text: '33', correct: false },
             { text: '22', correct: true }
+        ]
+    },
+    {
+        question: 'Ram has 15 marbles and Shyam has 23 marbles. How many marbles they both have?',
+        answers: [
+            { text: '7', correct: false },
+            { text: '34', correct: false },
+            { text: '47', correct: false },
+            { text: '38', correct: true }
         ]
     }
 ]
