@@ -1,13 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
+<!DOCTYPE HTML>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
-    <link rel="shortcut icon" href="../Home/favicon.ico"/>
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Jekyll v4.0.1">
+    <link rel="shortcut icon" href="../Home/favicon.ico" />
 
-    <title>S P A R K : Video</title>
+    <title>S P A R K : Information</title>
 
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/carousel/">
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
@@ -18,36 +19,17 @@
         window.jQuery || document.write('<script src="/docs/4.5/assets/js/vendor/jquery.slim.min.js"><\/script>')
     </script>
     <script src="../js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="video.css">
+    <link rel="stylesheet" href="info.css">
     <style>
-        
-        body 
-        {
-            background-image: url('videoback.jpg');
-            background-repeat: no-repeat;
-            background-attachment: fixed;
-            background-size: cover;
-        }
-
-        .level
-        {
-            border:2px solid #ffffff!important;
-            margin-top: 50px!important;
-        }
-
-        a {
-            margin-right: 20px;
-            font-weight: bold;
+        li {
+            padding-right: 20px;
         }
         
-        .footer,h1,h2,p,span {
+        h1,
+        h2,
+        p {
             font-family: 'Josefin Sans', sans-serif!important;
         }
-        
-        .video{
-            margin-bottom: 25px;
-        }
-
     </style>
 </head>
 
@@ -64,7 +46,7 @@
                         <a class="nav-link top-menu" href="../index.html">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link activated next-menu-1" href="video.html">Video <span class="sr-only">(current)</span></a>
+                        <a class="nav-link activated next-menu-1" href="#learn">Information <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link next-menu-5" href="../index.html#about-us">About <span class="sr-only">(current)</span></a>
@@ -76,26 +58,19 @@
             </div>
         </nav>
     </header>
-    <h1 class="level" style="margin-top: 80px;"> Choose Subject For Videos </h1>
+
+    <h1 id="level" style="margin-top: 80px;"> Choose How to Teach or Updates </h1>
     <div class="container">
         <div class="row">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
-                <button class="button" onclick="window.open('mathvideo.html','_self')"><span>MATHEMATICS</span></button>
+                <button class="button" onclick="window.open('Update/Update.html','_self')"><span>UPDATES </span></button>
             </div>
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
-                <button class="button" onClick="window.open('sciencevideo.html','_self')"><span>SCIENCE</span></button>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
-                <button class="button" onclick="window.open('Englishvideo.html','_self')"><span>ENGLISH</span></button>
-            </div>
-            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 col-12">
-                <button class="button" onclick="window.open('Gkvideo.html','_self')"><span>G.K.</span></button>
+                <button class="button" onclick="window.open('Teach/Teach.html','_self')"><span>HOW TO TEACH</span></button>
             </div>
         </div>
     </div>
-    <div class="footer" style="color: white; margin-top: 80px;">
-        Copyright © 2020 SPARK, Inc. All rights reserved.
+    <div class="footer" style="position: relative;bottom: -100px">
+        <p id="copyright">Copyright © 2020 SPARK, Inc. All rights reserved.</p>
     </div>
 </body>
-
-</html>
