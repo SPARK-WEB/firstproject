@@ -14,29 +14,35 @@ $(window).on('scroll', function() {
         $('.next-menu-1').removeClass('activated');
     }
 
-    if (stop > 1400 && stop <= 2200) {
+    if (stop > 1400 && stop <= 2100) {
         $('.next-menu-2').addClass('activated');
     } else {
         $('.next-menu-2').removeClass('activated');
     }
 
-    if (stop > 2200 && stop <= 3000) {
+    if (stop > 2100 && stop <= 2900) {
         $('.next-menu-3').addClass('activated');
     } else {
         $('.next-menu-3').removeClass('activated');
     }
 
-    if (stop > 3000 && stop <= 4400) {
+    if (stop > 2900 && stop <= 3650) {
         $('.next-menu-4').addClass('activated');
     } else {
         $('.next-menu-4').removeClass('activated');
     }
 
-    if (stop > 4400) {
+    if (stop > 3650 && stop <= 5100) {
         $('.next-menu-5').addClass('activated');
     } else {
         $('.next-menu-5').removeClass('activated');
     }
 
-}); 
+    if (stop > 5100) {
+        $('.next-menu-6').addClass('activated');
+    } else {
+        $('.next-menu-6').removeClass('activated');
+    }
+
+});
 //@arkad Orginal Work
