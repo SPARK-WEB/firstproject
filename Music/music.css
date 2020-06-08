@@ -151,7 +151,24 @@ img {
 .slider-nav__label:focus {
     background-color: gray;
     color: black;
+    
 }
+.cid-qIp7KFGlXe {
+
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background-color: #ffffff;
+  }
+  .cid-qIp7KFGlXe .mbr-section-subtitle {
+    color: #767676;
+    
+  }
+.display-2 {
+	font-family: 'Poppins', sans-serif;
+	font-size: 3rem;
+	text-align: center;
+	
+  }
 
 #copyright {
     color: #ffffff;
