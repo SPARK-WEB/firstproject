@@ -49,7 +49,7 @@ body
 }
 .button:active
 {
-	background-color: #a06044;
+	background-color: #45531f;
 	box-shadow: 0 5px #666;
 	transform: translateY(10px);
 }
