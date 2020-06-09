@@ -59,7 +59,8 @@ iframe{
 }
 
 h2{
-	margin-top: 100px!important;
+	margin-top: 10px!important;
+	font-size: 3rem;
 }
 
 .level
@@ -131,7 +132,7 @@ body {
 
 	padding-top: 50px;
 	padding-bottom: 50px;
-	background-color: #ffffff;
+	background-color: #e0dae0;
 	
   }
   .cid-qIp7KFGlXe .mbr-section-subtitle {
@@ -212,7 +213,7 @@ body {
   }
 
   .cid-qIp0uk8TbN {
-	padding-top: 30px;
+	padding-top: 10px;
 	padding-bottom: 60px;
 	background-color: transparent;
   }
@@ -256,9 +257,9 @@ body {
   }
   .center {
 	margin: auto;
-	width: 60%;
-	border: 3px solid #73AD21;
-	padding: 10px;
+	width: 70%;
+	border: 10px solid rgb(8, 12, 3);
+	padding: 20px;
   }
   .infoboxCard {
 	border:1px solid white;
