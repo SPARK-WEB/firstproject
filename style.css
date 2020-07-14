@@ -1,0 +1,163 @@
+<<<<<<< HEAD
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url('bimg.jpg');
+    background-size: cover;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    background-color: #f5f5f5;
+}
+
+form {
+    background-color: #e1e1e1;
+    box-shadow: 5px 5px 10px #e1e1e1;
+}
+
+form button {
+    background-color: #12375f!important;
+}
+
+form button:hover {
+    background-color: #1e1e1e!important;
+}
+
+.form-signin {
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+}
+
+.form-signin .checkbox {
+    font-weight: 400;
+}
+
+.form-signin .form-control {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+#inputEmail {
+    margin-top: 40px!important;
+}
+
+#inputPassword {
+    margin-top: 20px!important;
+}
+=======
+
+body{
+    margin: 0;
+    padding: 0;
+    background: url(robert-collins-tvc5imO5pXk-unsplash.jpg);
+    background-size: cover;
+    background-position: to;
+}
+.loginbox{
+    width: 25%;
+    backdrop-filter: blur(15px);
+    color: rgb(14, 11, 11);
+    top: 20%;
+    left: 75%;
+    position: relative;
+    transform: translate(-40%,30%);
+    padding-bottom: 50px;
+    box-shadow: 5px 5px 10px #e1e1e1;
+}
+.loginpic
+{
+ width: 30%;
+ height: 20%;
+ border-radius: 50%;
+ position: relative;
+ top: 10%;
+ left: 50%;
+ transform: translate(-50%,30%);
+}
+.submit{
+    background-color: #12375f;
+    color: white!important;
+    border-radius: 5px;
+    height: auto;
+    width: 70%;
+    padding: 10px 20px;
+    position: relative;
+    left: 50%;
+    bottom: 5%;
+    transform: translate(-50%,90%);
+    margin-bottom: 20px;
+}
+input,h1,form a,.reg{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.username{
+    padding-bottom: 20px;
+    margin-left: 10%;
+}
+.password{
+    padding-bottom: 20px;
+    margin-left: 10%;
+}
+
+h1{
+    padding-top: 30px;
+    font-size: 40px;
+    border-radius: 5px;
+}
+input{
+    height: 25px;
+    width: 80%;
+}
+.loginbox p{
+    font-size: 20px;
+    font-weight: bold;
+}
+.loginbox input[type="text"], input[type="password"]{
+    border-bottom: 1px solid rgb(10, 2, 2);
+    font-size: 15px;
+}
+.loginbox input[placeholder="Enter Username"], input[placeholder="Enter Password"]{
+    font-style: italic;
+}
+.loginbox a{
+    color: #080808;
+}
+.loginbox a:hover{
+    color: #e1e1e1;
+
+}
+.reg{
+    position: relative;
+    bottom: 0;
+    margin-top: 50px;
+}
+>>>>>>> 4f8844d3cfe236dba90f899fbf78e990f56f46bf
