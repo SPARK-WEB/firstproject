@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="en">
 
 <head>
@@ -26,10 +25,17 @@
     <meta name="theme-color" content="#563d7c">
 
     <style>
-    	body {
-		    display: none;
-		}
+    	#hideAll
+	 {
+	   position: fixed;
+	   left: 0px; 
+	   right: 0px; 
+	   top: 0px; 
+	   bottom: 0px; 
+	   background-color: white;
+	   z-index: 99; /* Higher than anything else in the document */
 
+	 }
         html {
             scroll-behavior: smooth;
         }
@@ -101,10 +107,15 @@
         }
     </style>
     <link href="Home/carousel.css" rel="stylesheet">
+    <script>
+    	window.onload = function(){ document.getElementById("hideAll").style.display = "block"; }
+	</script>
 </head>
 
-<body id="">
+<body id="hideAll" style="display: none;">
+	
 
+ 	
     <!-- Nav Bar Begins here -->
 
     <header>
@@ -409,7 +420,6 @@
             </p>
         </footer>
     </main>
-    <script src="load.js"></script>
 </body>
 
 </html>
